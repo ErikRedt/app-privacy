@@ -5,62 +5,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alien Genie Privacy Policy</title>
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-      color: #172033;
-      background: #f7f8fb;
+      background: #0d0820;
+      color: #e8e4f8;
+      min-height: 100vh;
+      padding-bottom: 64px;
     }
-
-    main {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 48px 20px 64px;
+    .hero {
+      text-align: center;
+      padding: 56px 24px 40px;
     }
-
+    .orb {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 38% 38%, #7cefb0, #4ade80 40%, #16a34a);
+      box-shadow: 0 0 32px rgba(74, 222, 128, 0.35);
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+    }
     h1 {
-      margin: 0 0 8px;
-      font-size: 2rem;
-      line-height: 1.15;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
     }
-
-    h2 {
-      margin-top: 32px;
-      font-size: 1.1rem;
-    }
-
-    p, li {
-      font-size: 1rem;
-    }
-
     .updated {
-      color: #60677a;
-      margin-bottom: 28px;
+      font-size: 0.85rem;
+      color: #8b82b0;
+    }
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(139,110,255,0.3), transparent);
+      margin: 0 24px;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 8px 24px 0;
+    }
+    .section {
+      border: 1px solid rgba(139,110,255,0.18);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-top: 16px;
+      background: rgba(255,255,255,0.04);
+    }
+    h2 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #a78bfa;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: #c4bde8;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #5a5278;
     }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Alien Genie Privacy Policy</h1>
+  <div class="hero">
+    <div class="orb">👽</div>
+    <h1>Privacy Policy</h1>
     <p class="updated">Last updated: June 15, 2026</p>
-
-    <p>Alien Genie does not track users, show advertising, or sell personal information.</p>
-
-    <h2>Questions and Answers</h2>
-    <p>Questions are processed on device when Apple Intelligence is available. If Apple Intelligence is unavailable, Alien Genie uses local random fallback answers.</p>
-
-    <h2>Weather and Location</h2>
-    <p>Weather-related questions may use a named place or your approximate location to fetch weather context through Apple services, including MapKit and WeatherKit. Non-weather questions do not request location.</p>
-
-    <h2>Reading History</h2>
-    <p>Recent readings may be stored on your device and may sync through your iCloud key-value storage when iCloud is available. You can clear recent readings in the app.</p>
-
-    <h2>Entertainment Only</h2>
-    <p>Alien Genie is for entertainment only and is not medical, legal, financial, safety, or emergency advice.</p>
-
-    <h2>Contact</h2>
-    <p>For privacy questions, contact the developer through the support link listed on Alien Genie's App Store page.</p>
+  </div>
+  <div class="divider"></div>
+  <main>
+    <div class="section">
+      <p>Alien Genie does not track users, sell personal information, or share data with third parties for advertising purposes.</p>
+    </div>
+    <div class="section">
+      <h2>Questions &amp; Answers</h2>
+      <p>Questions are processed on device when Apple Intelligence is available. If Apple Intelligence is unavailable, Alien Genie uses local random fallback answers.</p>
+    </div>
+    <div class="section">
+      <h2>Weather &amp; Location</h2>
+      <p>Weather-related questions may use a named place or your approximate location to fetch weather context through Apple services, including MapKit and WeatherKit. Non-weather questions do not request location.</p>
+    </div>
+    <div class="section">
+      <h2>Reading History</h2>
+      <p>Recent readings may be stored on your device and may sync through your iCloud key-value storage when iCloud is available. You can clear recent readings in the app.</p>
+    </div>
+    <div class="section">
+      <h2>Advertising</h2>
+      <p>Alien Genie on iOS may display ads through Google Mobile Ads. Ads are non-personalized and do not require cross-app tracking permission. Purchasing Cosmic Pass removes ads permanently. Alien Genie on Apple Watch and Mac does not show ads.</p>
+    </div>
+    <div class="section">
+      <h2>Entertainment Only</h2>
+      <p>Alien Genie is for entertainment only and is not medical, legal, financial, safety, or emergency advice.</p>
+    </div>
+    <div class="section">
+      <h2>Contact</h2>
+      <p>For privacy questions, contact the developer through the support link listed on Alien Genie's App Store page.</p>
+    </div>
+    <p class="footer">Alien Genie · Made with 👽 by Erik Redt</p>
   </main>
 </body>
 </html>
