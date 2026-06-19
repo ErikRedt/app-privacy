@@ -70,6 +70,32 @@
       line-height: 1.65;
       color: #c4bde8;
     }
+    a {
+      color: #c4b5fd;
+    }
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid rgba(196,181,253,0.22);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.05);
+      color: #f5f3ff;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .social-link:hover {
+      background: rgba(167,139,250,0.14);
+      border-color: rgba(196,181,253,0.42);
+    }
     .footer {
       text-align: center;
       margin-top: 40px;
@@ -82,12 +108,12 @@
   <div class="hero">
     <div class="orb">👽</div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: June 15, 2026</p>
+    <p class="updated">Last updated: June 19, 2026</p>
   </div>
   <div class="divider"></div>
   <main>
     <div class="section">
-      <p>Alien Genie does not track users, sell personal information, or share data with third parties for advertising purposes.</p>
+      <p>Alien Genie is free and contains no advertising, tracking SDK, subscription, or in-app purchase. The app does not sell personal information.</p>
     </div>
     <div class="section">
       <h2>Questions &amp; Answers</h2>
@@ -102,8 +128,16 @@
       <p>Recent readings may be stored on your device and may sync through your iCloud key-value storage when iCloud is available. You can clear recent readings in the app.</p>
     </div>
     <div class="section">
-      <h2>Advertising</h2>
-      <p>Alien Genie on iOS may display ads through Google Mobile Ads. Ads are non-personalized and do not require cross-app tracking permission. Purchasing Cosmic Pass removes ads permanently. Alien Genie on Apple Watch and Mac does not show ads.</p>
+      <h2>Advertising &amp; Purchases</h2>
+      <p>Alien Genie does not display advertisements, use advertising or tracking SDKs, or offer subscriptions or in-app purchases.</p>
+    </div>
+    <div class="section">
+      <h2>External Links</h2>
+      <p>The information screen includes optional links to Toku No Tabi on YouTube and Instagram. Opening a link leaves Alien Genie, and your activity is then governed by that service's privacy policy. Alien Genie does not receive your social-media account information or activity.</p>
+      <div class="social-links">
+        <a class="social-link" href="https://www.youtube.com/@Toku_No_Tabi" rel="noopener noreferrer">▶ YouTube · @Toku_No_Tabi</a>
+        <a class="social-link" href="https://www.instagram.com/toku_no_tabi" rel="noopener noreferrer">◎ Instagram · @Toku_No_Tabi</a>
+      </div>
     </div>
     <div class="section">
       <h2>Entertainment Only</h2>
